@@ -387,6 +387,10 @@
     {
       "packageName": "frontend-1",
       "projectFolder": "apps/frontend-1"
+    },
+    {
+      "packageName": "backend-2",
+      "projectFolder": "apps/backend-2"
     }
     // {
     //   /**

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["es5", "es6", "DOM"],
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": true,
+/*         "baseUrl": "src",
+        "paths": {
+            "@library/*": ["library/*"],
+            "@entity/*": ["entity/*"],
+            "@rest/*": ["rest/*"],
+            "@repository/*": ["repository/*"],
+        }, */
+       
+    },
+    "exclude": ["node_modules", "bower_components", "jspm_packages", "src/cp/one-time/deprecated.ts", "src/lambda"], 
+    "include": ["src/**/*"]
+}
