@@ -29,7 +29,6 @@
         "typescript": "3.9.5"
     },
     "dependencies": {
-        "@welbi/prisma-mysql": "workspace:*",
         "@nexus/schema": "0.17.0",
         "@prisma/client": "2.11.0",
         "@sentry/node": "6.2.4",
@@ -54,7 +53,7 @@
     },
     "scripts": {
         "start": "TZ=UTC node dist/index",
-        "build": "ts-node --transpile-only src/schema/makeSchema && heft build --clean",
+        "build": "heft build --clean",
         "test": "TZ=UTC heft test --clean",
         "generate": "npm -s run generate:nexus",
         "generate:nexus": "ts-node --transpile-only src/schema/makeSchema",
