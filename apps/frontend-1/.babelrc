@@ -1,0 +1,28 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+        "transform-stitches-display-name",
+        [
+            "module-resolver",
+            {
+                "root": ["./"],
+                "alias": {
+                    "data/": "./src/data/",
+                    "styled/": "src/ui/stitches.config.ts",
+                    "ui/": "./src/ui/",
+                    "hooks/": "./src/hooks/",
+                    "helpers/": "./src/helpers/",
+                    "types/": "./src/types/",
+                    "components/": "./src/components/",
+                    "constants/": "./src/constants/",
+                    "graphql/": "./src/graphql/",
+                    "wrappers/": "./src/wrappers/",
+                    "generated/": "./src/generated/",
+                    "css/": "./src/css/",
+                    "~/": "./src/",
+                    "@/": "./src/"
+                }
+            }
+        ]
+    ]
+}

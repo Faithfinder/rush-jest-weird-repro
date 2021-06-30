@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["es6", "dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "paths": {
+            "data/*": ["./src/data/*"],
+            "styled": ["src/ui/stitches.config.ts"],
+            "ui/*": ["./src/ui/*"],
+            "hooks/*": ["./src/hooks/*"],
+            "helpers/*": ["./src/helpers/*"],
+            "types/*": ["./src/types/*"],
+            "components/*": ["./src/components/*"],
+            "constants/*": ["./src/constants/*"],
+            "graphql/*": ["./src/graphql/*"],
+            "wrappers/*": ["./src/wrappers/*"],
+            "generated/*": ["./src/generated/*"],
+            "css/*": ["./src/css/*"],
+            "~/*": ["./src/*"],
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

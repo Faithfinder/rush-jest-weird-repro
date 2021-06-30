@@ -1,0 +1,9 @@
+projects:
+    HQ:
+        schema: 'http://localhost:3001/hq/api/graphql'
+        schemaPath: 'src/graphql/generated.graphql'
+        documents: 'src/graphql/generated.graphql'
+        extensions:
+            endpoints:
+                default:
+                    url: 'http://localhost:3001/hq/api/graphql'
