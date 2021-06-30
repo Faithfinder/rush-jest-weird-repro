@@ -381,8 +381,8 @@
    */
   "projects": [
     {
-      "packageName": "random-app1",
-      "projectFolder": "apps/random-app1"
+      "packageName": "backend-1",
+      "projectFolder": "apps/backend-1"
     }
     // {
     //   /**
